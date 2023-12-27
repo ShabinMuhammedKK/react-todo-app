@@ -1,0 +1,60 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+body {
+    background-color: rgb(187, 237, 219);
+}
+.todo-container {
+background-color: rgb(13, 208, 166,0.5);
+  width: 500px;
+  margin-left: 50%;
+  margin-top: 25%;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+  height: 500px;
+  
+}
+h1{
+
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+.input-section{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    margin-left: 40%;
+    transform: translate(-65%);
+    margin-top: 50px;
+
+}
+ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-top: 10px;
+    padding: 5px;
+    width: 400px;
+    height: 40px;
+    border:1px solid;
+    border-radius:13px;
+    background-color: white;
+}
+.input-col{
+    margin-top: 30px;
+    border:1px solid;
+    width: 290px;
+    height: 50px;
+    border-radius:13px 0px 0px 13px;
+}
+.add-btn{
+    margin-top: 30px;
+    width: 60px;
+    border:1px solid;
+    border-radius:0px 13px 13px 0px;
+}
