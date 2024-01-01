@@ -4,10 +4,10 @@
 }
 
 body {
-    background-color: rgb(187, 237, 219);
+    background-color: rgb(255, 255, 255);
 }
 .todo-container {
-background-color: rgb(13, 208, 166,0.5);
+background-color: rgb(130, 75, 7);
   width: 500px;
   margin-left: 50%;
   margin-top: 25%;
@@ -17,7 +17,7 @@ background-color: rgb(13, 208, 166,0.5);
   
 }
 h1{
-
+    color: white;
     padding-top: 10%;
     display: flex;
     justify-content: center;
@@ -33,28 +33,48 @@ ul{
 
 }
 ul li{
-    display: flex;
-    justify-content: center;
+display: flex;
     align-items: center;
     list-style: none;
     margin-top: 10px;
     padding: 5px;
     width: 400px;
     height: 40px;
-    border:1px solid;
+    border:0px solid;
     border-radius:13px;
     background-color: white;
 }
 .input-col{
     margin-top: 30px;
-    border:1px solid;
     width: 290px;
     height: 50px;
+    border: 0px solid;
     border-radius:13px 0px 0px 13px;
+    font-size: large;
 }
 .add-btn{
     margin-top: 30px;
     width: 60px;
-    border:1px solid;
+    border:0px solid;
+    background-color: white;
     border-radius:0px 13px 13px 0px;
 }
+  
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .item-text {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .delete-btn {
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+  .menubar{
+    display: flex;
+  }
